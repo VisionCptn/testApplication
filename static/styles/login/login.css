@@ -1,0 +1,42 @@
+.clear{clear: both;}
+.floatRight{float: right;}
+.floatLeft{float: left;}
+
+/*Main View*/
+#main-view{
+    padding: 15px;
+}
+
+/*Login component*/
+.mdl-textfield.mdl-js-textfield{
+    margin-right: 60px;
+    padding-top: 0px;
+}
+.LoginButton{
+    margin-left: 15px;
+    height: 27px;
+    line-height: 27px;
+}
+
+/*Article View*/
+#todo-list{
+    width: 400px;
+    margin: 0 auto;
+}
+#todos-list{
+    float: left;
+}
+#todos-list .mdl-button.mdl-js-button{
+    margin: 10px 10px 10px 0px;
+}
+#todos-list .demo-card-square.mdl-card{
+    margin-top: 10px;
+}
+.AddArticleWrapper{
+    width: 329px;
+    float: left;
+    margin-top: 10px;
+}
+.AddArticleWrapper .mdl-button.mdl-js-button{
+    margin-top: 10px;
+}
